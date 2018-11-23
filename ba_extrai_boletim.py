@@ -7,12 +7,7 @@ import scrapy
 from rows.utils import open_compressed
 
 from ba_parse_pdf import extract_table
-
-
-DOWNLOAD_PATH = Path(__file__).parent / "data/download"
-OUTPUT_PATH = Path(__file__).parent / "data/output"
-if not DOWNLOAD_PATH.exists():
-    DOWNLOAD_PATH.mkdir()
+from settings import DOWNLOAD_PATH, OUTPUT_PATH
 
 
 class ExtraiBoletins(scrapy.Spider):
