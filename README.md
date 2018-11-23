@@ -24,8 +24,39 @@ executando:
 pip install -r requirements.txt
 ```
 
-Daí, basta executar (testado em sistema GNU/Linux - talvez precise de alteração
-em Mac OS X e Windows):
+Você pode rodar o script para apenas um arquivo ou para baixar todos os
+arquivos.
+
+### Rodando para um arquivo
+
+O programa de linha de comando `extract.py` faz a extração de um único arquivo,
+que pode estar em sua máquina ou mesmo disponível em algum site. Passe a sigla
+do estado que deseja extrair, o arquivo de origem e o arquivo de destino.
+
+Exemplo para Bahia:
+
+```bash
+URL="http://balneabilidade.inema.ba.gov.br/index.php/relatoriodebalneabilidade/geraBoletim?idcampanha=36381"
+python extract.py BA "$URL" BA-36381.csv
+```
+
+O boletim será baixado de `$URL`, extraído e o resultado será gravado em
+`BA-36381.csv`.
+
+Exemplo para Santa Catarina:
+
+```bash
+URL="http://www.fatma.sc.gov.br/laboratorio/relatorio_ficha2.php?simplificado=1&where=0&d1=2018-01-01&d2=2018-12-31&mc=2&pc=72"
+python extract.py SC "$URL" SC-floripa-2018.csv
+```
+
+O boletim será baixado de `$URL`, extraído e o resultado será gravado em
+`SC-floripa-2018.csv`.
+
+
+### Baixando todos os arquivos
+
+Existe um script que roda todos os spiders (para todos os estados disponíveis):
 
 ```bash
 ./run.sh
