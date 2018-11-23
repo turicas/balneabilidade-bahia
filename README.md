@@ -1,7 +1,12 @@
-# Praias Bahia
+# Dados de Balneabilidade da Costa Brasileira
 
-Programa que baixa todos os relatórios de balneabilidade do INEMA (em PDF),
-converte um por um e extrai os dados completos em uma planilha.
+Conjunto de programas que baixam boletins de balneabilidade (condição que
+indica se água está própria ou não para banho) de diversas praias da costa
+brasileira, extraem, limpam e exportam os dados normalizados. As fontes dos
+dados são:
+
+- Bahia: [INEMA](http://balneabilidade.inema.ba.gov.br)
+- Santa Catarina: [FATMA](http://www.fatma.sc.gov.br/laboratorio/dlg_balneabilidade2.php)
 
 
 ## Dados
@@ -26,5 +31,4 @@ em Mac OS X e Windows):
 ./run.sh
 ```
 
-Os arquivos `boletins.csv` e `balneabilidade.csv` serão criados (além de
-versões deles em `xls` dos mesmos). Divirta-se! :)
+Os arquivos finais serão criados no diretório `data/output`.
