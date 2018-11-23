@@ -5,7 +5,8 @@ URL_BOLETIM = 'http://balneabilidade.inema.ba.gov.br/index.php/relatoriodebalnea
 
 
 class ListaBoletinsSpider(Spider):
-    name = 'inema-balneabilidade-lista-boletins'
+
+    name = 'balneabilidade-ba-lista-boletim'
     start_urls = ['http://balneabilidade.inema.ba.gov.br/index.php/relatoriodebalneabilidade/boletim']
 
     def parse(self, response):
