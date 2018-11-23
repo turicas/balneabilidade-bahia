@@ -1,0 +1,4 @@
+datahora,vento,mare,chuvas_ultimas_24h,temp_ar_celsius,temp_agua_celsius,ecoli,condicao,local,municipio,ponto_de_coleta,referencia
+1996-12-04T00:00:00,Norte,Preamar,,26,24,<=230,PRÓPRIA,PRAIA DE SÃO MIGUEL,BIGUAÇÚ,Ponto 01,em frente ao aqueduto
+1996-12-11T00:00:00,Sul,Preamar,,22,21,430,PRÓPRIA,PRAIA DE SÃO MIGUEL,BIGUAÇÚ,Ponto 01,em frente ao aqueduto
+1996-12-18T00:00:00,Norte,Preamar,,26,23,<=230,PRÓPRIA,PRAIA DE SÃO MIGUEL,BIGUAÇÚ,Ponto 01,em frente ao aqueduto

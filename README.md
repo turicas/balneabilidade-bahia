@@ -32,3 +32,18 @@ em Mac OS X e Windows):
 ```
 
 Os arquivos finais serão criados no diretório `data/output`.
+
+
+## Testando
+
+Instale as dependências de desenvolvimento:
+
+```bash
+pip install -r dev-requirements.txt
+```
+
+Rode os testes:
+
+```bash
+pytest
+```
