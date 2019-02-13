@@ -1,9 +1,8 @@
 cached-property
 click
-git+https://github.com/turicas/rows.git@feature/plugin-pdf#egg=rows
 pymupdf
 requests
 requests-cache
-rows
+rows>=0.4.0
 scrapy
 tqdm
