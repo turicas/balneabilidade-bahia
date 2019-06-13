@@ -23,7 +23,7 @@ a mesma licença**.
 ## Dados
 
 Caso você não queira/possa rodar o script, **[acesse diretamente os dados
-convertidos no Brasil.IO](https://brasil.io/dataset/balneabilidade-brasil)**.
+convertidos no Brasil.IO](https://brasil.io/dataset/balneabilidade-bahia)**.
 
 Se esse programa e/ou os dados resultantes foram úteis a você ou à sua empresa,
 considere [fazer uma doação ao projeto Brasil.IO](https://brasil.io/doe), que é
