@@ -9,10 +9,25 @@ dados são:
 - Santa Catarina: [FATMA](http://www.fatma.sc.gov.br/laboratorio/dlg_balneabilidade2.php)
 
 
+## Licença
+
+A licença do código é [LGPL3](https://www.gnu.org/licenses/lgpl-3.0.en.html) e
+dos dados convertidos [Creative Commons Attribution
+ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). Caso utilize os
+dados, **cite a fonte original e quem tratou os dados**, como: **Fonte:
+INEMA/BA e FATMA/SC, dados tratados por Álvaro
+Justen/[Brasil.IO](https://brasil.io/)**. Caso compartilhe os dados, **utilize
+a mesma licença**.
+
+
 ## Dados
 
-[**Acesse diretamente os dados já
-extraídos**](https://drive.google.com/open?id=1muf_9bG9xqwJPIz_g4Bui2ZCTsmOA8EZ).
+Caso você não queira/possa rodar o script, **[acesse diretamente os dados
+convertidos no Brasil.IO](https://brasil.io/dataset/balneabilidade-brasil)**.
+
+Se esse programa e/ou os dados resultantes foram úteis a você ou à sua empresa,
+considere [fazer uma doação ao projeto Brasil.IO](https://brasil.io/doe), que é
+mantido voluntariamente.
 
 
 ## Rodando
