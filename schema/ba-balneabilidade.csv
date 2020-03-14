@@ -1,0 +1,10 @@
+field_name,field_type
+ponto_codigo,text
+local_da_coleta,text
+categoria,text
+costa_ponto,text
+data_emissao,date
+id_campanha,integer
+numero_boletim,text
+tipo_campanha,text
+costa_menu,text

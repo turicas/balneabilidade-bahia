@@ -1,0 +1,7 @@
+field_name,field_type
+costa,text
+data_emissao,date
+id_campanha,integer
+numero_boletim,text
+tipo_campanha,text
+url,text

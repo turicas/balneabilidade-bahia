@@ -1,0 +1,7 @@
+field_name,field_type
+ano,integer
+balneario_id,integer
+balneario_nome,text
+municipio_id,integer
+municipio_nome,text
+pdf_url,text
