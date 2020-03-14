@@ -8,6 +8,8 @@ dados são:
 - Bahia: [INEMA](http://balneabilidade.inema.ba.gov.br)
 - Santa Catarina: [FATMA](http://www.fatma.sc.gov.br/laboratorio/dlg_balneabilidade2.php)
 
+Gostaria de implementar para outro estado? [Colabore com o
+projeto](#colaborando) criando um *pull request*. :)
 
 ## Licença
 
@@ -32,14 +34,14 @@ mantido voluntariamente.
 
 ## Rodando
 
-Esse script depende de Python 3.6 e de algumas bibliotecas. Instale-as
-executando:
+Esse script foi testado na versão 3.7 do Python e depende de algumas
+bibliotecas. Instale-as executando:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Você pode rodar o script para apenas um arquivo ou para baixar todos os
+Você pode rodar o script para extrair apenas um arquivo ou para baixar todos os
 arquivos.
 
 ### Rodando para um arquivo
@@ -80,7 +82,7 @@ Existe um script que roda todos os spiders (para todos os estados disponíveis):
 Os arquivos finais serão criados no diretório `data/output`.
 
 
-## Testando
+## Colaborando
 
 Instale as dependências de desenvolvimento:
 
